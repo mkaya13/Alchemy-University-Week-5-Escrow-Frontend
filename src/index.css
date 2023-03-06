@@ -1,0 +1,155 @@
+body {
+  background-color: #eee;
+  font-family: "Muli", sans-serif;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.contract,
+.existing-contracts {
+  margin: 20px;
+  display: inline-block;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.existing-contracts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.existing-contracts h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 20px;
+  padding: 0.2rem 20% 0.2rem 20%;
+}
+
+input[type="text"] {
+  padding: 6px;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #f58427;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1rem 40% 1rem 40%;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.existing-contract ul {
+  padding: 10px;
+  margin: 20px;
+  background-color: #eee;
+}
+
+.existing-contract ul > li {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+
+.existing-contract ul > li > div {
+  margin: 0 5px;
+}
+
+.existing-contract ul > li > :first-child {
+  font-weight: bold;
+}
+
+.existing-contract .complete {
+  color: #5aa75a;
+  text-align: center;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-contract {
+  display: flex;
+  justify-content: center;
+}
+
+.app-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  margin: 0;
+  padding: 0 1% 0 1%;
+  height: 5.5rem;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20% 0 20%;
+}
+
+.logo-span img {
+  width: 6rem;
+  height: 4rem;
+}
+
+.connected-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  height: 2rem;
+}
+
+.account-balance {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2rem;
+}
+
+.account-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  border: 1px groove;
+  background-color: #e0ffff;
+  border-radius: 1rem;
+}
