@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Crypto Market <a name="about-project"></a>
+# 📖 Escrow Dapp <a name="about-project"></a>
 
 > Escrow web application that connects to metamask when you go the url and enables you to deploy an escrow Smart Contract agreement.
 
